@@ -33,4 +33,10 @@
   .contact {
     flex-direction: column;
   }
+
+  .normal-members,
+  .karyakarta {
+    margin: 1rem;
+    padding: 1rem;
+  }
 }

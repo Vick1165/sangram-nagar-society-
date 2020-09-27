@@ -172,6 +172,13 @@ img {
   border: 5px solid white;
   border-radius: 5px;
 }
+.normal-members,
+.karyakarta {
+  border: 5px solid var(--clr-primary);
+  padding: 2rem;
+  border-radius: 50px;
+}
+
 .contact {
   color: black;
   display: flex;

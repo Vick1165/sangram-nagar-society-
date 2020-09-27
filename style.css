@@ -62,8 +62,8 @@ img {
 }
 
 .navbar a:hover {
-  border-bottom: var(--clr-primary);
-  color: var(--clr-primary);
+  border-bottom: 2px solid var(--clr-primary);
+  /* color: var(--clr-primary); */
 }
 
 .hero {

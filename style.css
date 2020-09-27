@@ -108,7 +108,18 @@ img {
 .hero * {
   z-index: 10;
 }
-
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: var(--clr-primary);
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
 .info {
   margin-top: 2rem;
   color: black;

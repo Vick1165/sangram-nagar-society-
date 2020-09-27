@@ -63,6 +63,7 @@ img {
 
 .navbar a:hover {
   border-bottom: var(--clr-primary);
+  color: var(--clr-primary);
 }
 
 .hero {

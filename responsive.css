@@ -17,4 +17,7 @@
   .flex-item {
     flex-direction: column;
   }
+  #map {
+    width: 80%;
+  }
 }

@@ -13,6 +13,9 @@
     padding: 10px 10px;
     margin: 0 3px;
   }
+  .navbar ul {
+    justify-content: center;
+  }
 
   .hero .content h1 {
     font-size: 35px;

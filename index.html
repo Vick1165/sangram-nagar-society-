@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>संग्राम नगर पुनर्विकास कृती समिती</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <!-- key -->
+    <!-- AIzaSyDNA78xGFlEGA7gWsCd0aVlAY9Nj1un2x8 -->
+  </head>
+  <body id="home">
+    <header class="hero">
+      <div class="navbar">
+        <h1 class="logo">
+          <span class="text-primary"> <i class="fa fa-home"></i>संग्राम</span
+          >नगर
+        </h1>
+
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#info">Info</a></li>
+            <li><a href="#Location">Location</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="content">
+        <h1>संग्राम नगर पुनर्विकास कृती समिती</h1>
+        <p>
+          संग्राम नगर, पी.एम.जी.पी कॉलनी शेजरी, काळा किल्ला, संत रोहिदास मार्ग,
+          धारावी, मुंबई, महाराष्ट्र 400017
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="info icons" id="info">
+        <div class="flex-item">
+          <div>
+            <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+            <h3>अध्यक्ष</h3>
+            <ul>
+              <li>मारुती आप्पा देसाई</li>
+              <li>सुरेष तयाप्पा तुमेती</li>
+            </ul>
+          </div>
+          <div>
+            <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+            <h3>सचिव</h3>
+            <ul>
+              <li>अजय सॅम्युएल मेट्री</li>
+              <li>सोपान गुलाबराव पावर</li>
+            </ul>
+          </div>
+          <div>
+            <i class="fa fa-university fa-2x" aria-hidden="true"></i>
+            <h3>खजिनदार</h3>
+            <ul>
+              <li>एन बी आर कुमार</li>
+              <li>सुरेष कांबळे</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="Location" id="Location">
+        <h3>Location</h3>
+
+        <div id="map" class="map"></div>
+
+        <!--The div element for the map -->
+      </section>
+    </main>
+    <script src="./map.js"></script>
+    <script
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNA78xGFlEGA7gWsCd0aVlAY9Nj1un2x8&callback=initMap"
+    ></script>
+  </body>
+</html>

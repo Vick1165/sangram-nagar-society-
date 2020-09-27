@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  .logo {
+    text-align: center;
+  }
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .navbar a {
+    padding: 10px 10px;
+    margin: 0 3px;
+  }
+
+  .flex-item {
+    flex-direction: column;
+  }
+}

@@ -124,7 +124,7 @@ img {
   margin-top: 2rem;
   color: black;
 }
-.flex-item {
+.flex-items {
   margin: 0 auto;
   width: 60%;
   display: flex;
@@ -133,7 +133,7 @@ img {
   justify-content: space-between;
   text-align: center;
 }
-.flex-item h3 {
+.flex-items h3 {
   font-size: 2rem;
 }
 .icons i {
@@ -142,6 +142,9 @@ img {
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 15px;
+}
+.flex-item {
+  padding: 1rem;
 }
 
 .flex-item ul li {
@@ -187,4 +190,22 @@ img {
 .contact li {
   font-size: 1.5rem;
   font-weight: 500;
+}
+footer {
+  margin-top: 5rem;
+  background: var(--clr-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 15vh;
+}
+
+footer a {
+  color: #fff;
+  font-weight: bold;
+}
+.social i {
+  padding: 1rem;
 }

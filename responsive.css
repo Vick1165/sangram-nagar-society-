@@ -20,7 +20,7 @@
   .hero .content p {
     font-size: 20px;
   }
-  .flex-item {
+  .flex-items {
     flex-direction: column;
   }
   #map {

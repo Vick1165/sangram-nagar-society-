@@ -26,4 +26,8 @@
   #map {
     width: 80%;
   }
+
+  .contact {
+    flex-direction: column;
+  }
 }

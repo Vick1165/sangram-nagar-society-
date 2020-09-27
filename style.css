@@ -157,3 +157,23 @@ img {
   border: 5px solid white;
   border-radius: 5px;
 }
+.contact {
+  color: black;
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.contact h3 {
+  font-size: 2rem;
+}
+
+.contact li {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
